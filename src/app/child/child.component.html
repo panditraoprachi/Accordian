@@ -1,0 +1,5 @@
+<div (click)="handleClick()" class="title">
+    <div>{{data.title}}</div>
+     <div>{{isClicked ?  '-' :'+'}}</div>
+</div>
+<div *ngIf="isClicked" class="description">{{data.description}}</div>

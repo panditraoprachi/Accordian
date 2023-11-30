@@ -1,0 +1,22 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #076679;
+    color: wheat;
+    font-weight: bold;
+    padding: 2%;
+    border: 1px solid;
+}
+.description{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #21aeca;
+    color: wheat;
+    font-weight: bold;
+    padding: 2%;
+    border: 1px solid; 
+}
